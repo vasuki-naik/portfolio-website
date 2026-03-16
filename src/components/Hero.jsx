@@ -82,7 +82,7 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src="/vasuki.png"
+                  src="/profile.jpeg"
                   alt="Vasuki Nagesh Naik"
                   className="w-full h-full object-cover object-top"
                   style={{ transform: 'scale(1.03)' }}
@@ -111,6 +111,7 @@ export default function Hero() {
                   Open to Internships
                 </span>
               </motion.div>
+
             </div>
           </motion.div>
 
@@ -128,16 +129,9 @@ export default function Hero() {
             </motion.div>
 
             <motion.h1 variants={stagger.item} className="hero-title text-[#18221E]">
-
-              Vasuki{' '}
-              <span className="grad-text">Nagesh</span>
-
+              Vasuki <span className="grad-text">Nagesh</span>
               <br />
-
-              <span style={{ color: '#2E3E36', fontWeight: 400 }}>
-                Naik
-              </span>
-
+              <span style={{ color: '#2E3E36', fontWeight: 400 }}>Naik</span>
             </motion.h1>
 
             <motion.div variants={stagger.item} className="space-y-2">
@@ -170,17 +164,14 @@ export default function Hero() {
                 fontStyle: 'italic',
               }}
             >
-              "Turning data into meaningful business insights — building ML
-              pipelines and dashboards that drive real decisions."
+              "Turning data into meaningful business insights — building ML pipelines and dashboards that drive real decisions."
             </motion.p>
 
             <motion.div variants={stagger.item} className="flex flex-wrap gap-3 pt-1">
 
               <button
                 onClick={() =>
-                  document
-                    .querySelector('#projects')
-                    ?.scrollIntoView({ behavior: 'smooth' })
+                  document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' })
                 }
                 className="btn-primary"
               >
@@ -201,7 +192,7 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Scroll Indicator */}
+        {/* Scroll indicator */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
