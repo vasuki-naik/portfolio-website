@@ -125,7 +125,7 @@ export default function Hero() {
           >
 
             <motion.div variants={stagger.item}>
-              <span className="label-text">Portfolio · 2025</span>
+              <span className="label-text">Portfolio</span>
             </motion.div>
 
             <motion.h1 variants={stagger.item} className="hero-title text-[#18221E]">
