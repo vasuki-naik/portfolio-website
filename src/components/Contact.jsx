@@ -4,9 +4,9 @@ import SectionWrapper, { SectionHeader } from './SectionWrapper'
 import { useInView } from './useInView'
 
 const links = [
-  { icon:Mail,     label:'Email',    value:'naikvasuki413@gmail.com',               href:'mailto:naikvasuki413@gmail.com',                          c:'#3F6F59', bg:'#EAF2EC', b:'#C0D9CA' },
-  { icon:Linkedin, label:'LinkedIn', value:'linkedin.com/in/vasuki-naik-4608432a6', href:'https://www.linkedin.com/in/vasuki-naik-4608432a6/',       c:'#5F8F78', bg:'#EAF2EC', b:'#C0D9CA' },
-  { icon:Github,   label:'GitHub',   value:'github.com/vasuki-naik',                href:'https://github.com/vasuki-naik',                          c:'#2B5242', bg:'#E4EDE8', b:'#B5D4C3' },
+  { icon:Mail,     label:'Email',    value:'naikvasuki413@gmail.com',               href:'mailto:naikvasuki413@gmail.com',                    c:'#3F6F59', bg:'#EAF2EC', b:'#C0D9CA' },
+  { icon:Linkedin, label:'LinkedIn', value:'linkedin.com/in/vasuki-naik-4608432a6', href:'https://www.linkedin.com/in/vasuki-naik-4608432a6/', c:'#5F8F78', bg:'#EAF2EC', b:'#C0D9CA' },
+  { icon:Github,   label:'GitHub',   value:'github.com/vasuki-naik',                href:'https://github.com/vasuki-naik',                    c:'#2B5242', bg:'#E4EDE8', b:'#B5D4C3' },
 ]
 
 export default function Contact() {

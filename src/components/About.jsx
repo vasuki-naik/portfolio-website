@@ -4,10 +4,10 @@ import { useInView } from './useInView'
 import { GraduationCap, Code2, Database, Brain } from 'lucide-react'
 
 const highlights = [
-  { icon: GraduationCap, label: 'CMR University', sub: 'B.E. IT · CGPA 8.80', c:'#3F6F59', bg:'#EAF2EC', b:'#C0D9CA' },
-  { icon: Brain,  label: 'ML Research',    sub: 'Churn + threshold optimisation', c:'#5F8F78', bg:'#EAF2EC', b:'#C0D9CA' },
-  { icon: Database,label: 'Data Pipelines', sub: 'EDA, modelling & BI dashboards', c:'#2B5242', bg:'#E4EDE8', b:'#B5D4C3' },
-  { icon: Code2,  label: 'Tech Stack',      sub: 'Python · SQL · Power BI · sklearn',c:'#3F6F59', bg:'#EAF2EC', b:'#C0D9CA' },
+  { icon: GraduationCap, label: 'CMR University',  sub: 'B.E. IT · CGPA 8.83',                    c:'#3F6F59', bg:'#EAF2EC', b:'#C0D9CA' },
+  { icon: Brain,         label: 'ML Research',     sub: 'Churn + threshold optimisation',           c:'#5F8F78', bg:'#EAF2EC', b:'#C0D9CA' },
+  { icon: Database,      label: 'Data Pipelines',  sub: 'EDA, modelling & BI dashboards',           c:'#2B5242', bg:'#E4EDE8', b:'#B5D4C3' },
+  { icon: Code2,         label: 'Tech Stack',       sub: 'Python · SQL · Power BI · sklearn',        c:'#3F6F59', bg:'#EAF2EC', b:'#C0D9CA' },
 ]
 
 export default function About() {
@@ -37,9 +37,14 @@ export default function About() {
         </motion.div>
 
         {/* Stats */}
+        {/* ✏️ CGPA 8.83, Projects → 4, Records → 100K+ */}
         <div ref={ref} className="grid grid-cols-2 gap-3 min-w-[210px]">
-          {[{ v:'8.80',l:'CGPA'},{v:'0.83',l:'ROC-AUC'},{v:'3K+',l:'Records Analysed'},{v:'3',l:'Projects Built'}]
-            .map((s, i) => (
+          {[
+            { v:'8.83', l:'CGPA'              },
+            { v:'0.83', l:'ROC-AUC'           },
+            { v:'100K+',l:'Records Analysed'  },
+            { v:'4',    l:'Projects Built'    },
+          ].map((s, i) => (
             <motion.div key={s.l}
               initial={{ opacity:0, scale:0.8 }}
               animate={inView ? { opacity:1, scale:1 } : {}}

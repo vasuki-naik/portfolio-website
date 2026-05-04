@@ -2,11 +2,33 @@ import { motion } from 'framer-motion'
 import SectionWrapper, { SectionHeader } from './SectionWrapper'
 import { useInView } from './useInView'
 
+// ✏️ Reordered and expanded to match resume skill categories exactly
 const groups = [
-  { cat:'Data Analysis',      dot:'#3F6F59', skills:['Python','Pandas','NumPy','SQL','EDA','Feature Engineering','Statistical Analysis'] },
-  { cat:'Machine Learning',   dot:'#5F8F78', skills:['Logistic Regression','Random Forest','XGBoost','SMOTE','GridSearchCV','ROC-AUC','Model Evaluation'] },
-  { cat:'Visualization & BI', dot:'#2B5242', skills:['Power BI','Tableau','Matplotlib','Seaborn','Excel'] },
-  { cat:'Tools & Workflow',   dot:'#8BBFA6', skills:['Git','GitHub','Jupyter Notebook','VS Code'] },
+  {
+    cat: 'SQL & Databases',
+    dot: '#3F6F59',
+    skills: ['Advanced SQL', 'CTEs', 'Window Functions', 'JOINs', 'Aggregations', 'Subqueries', 'SQLite', 'ETL', 'Relational Databases'],
+  },
+  {
+    cat: 'Data Analysis',
+    dot: '#5F8F78',
+    skills: ['Python', 'Pandas', 'NumPy', 'EDA', 'KPI Diagnostics', 'Feature Engineering', 'Statistical Modeling', 'Business Insights'],
+  },
+  {
+    cat: 'Machine Learning',
+    dot: '#2B5242',
+    skills: ['Logistic Regression', 'Random Forest', 'XGBoost', 'SMOTE', 'GridSearchCV', 'Predictive Modeling', 'ROC-AUC', 'Model Evaluation'],
+  },
+  {
+    cat: 'Visualization & BI',
+    dot: '#8BBFA6',
+    skills: ['Power BI', 'Tableau', 'Matplotlib', 'Seaborn', 'Excel', 'Dashboard Development', 'KPI Reporting'],
+  },
+  {
+    cat: 'Tools & Workflow',
+    dot: '#3F6F59',
+    skills: ['Git', 'GitHub', 'Jupyter Notebook', 'VS Code'],
+  },
 ]
 
 export default function Skills() {

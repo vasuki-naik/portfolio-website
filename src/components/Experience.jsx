@@ -5,28 +5,53 @@ import { useInView } from './useInView'
 
 const timeline = [
   {
-    icon:Briefcase, c:'#3F6F59', bg:'#EAF2EC', b:'#C0D9CA',
-    date:'December 2025', title:'Data Analytics Job Simulation', org:'Deloitte · Forage',
-    points:['Built interactive dashboards and analysed business data to surface key trends.','Supported client advisory and forensic decision-making in a simulated professional engagement.','Delivered structured insights and recommendations to stakeholders.'],
-    tags:['Power BI','EDA','Business Intelligence'],
+    icon: Briefcase, c:'#3F6F59', bg:'#EAF2EC', b:'#C0D9CA',
+    date: 'December 2025',
+    title: 'Data Analytics Job Simulation',
+    org: 'Deloitte · Forage',
+    points: [
+      'Built interactive dashboards and analysed business data to surface key trends.',
+      'Supported client advisory and forensic decision-making in a simulated professional engagement.',
+      'Delivered structured insights and recommendations to stakeholders.',
+    ],
+    tags: ['Power BI', 'EDA', 'Business Intelligence'],
   },
   {
-    icon:Lightbulb, c:'#5F8F78', bg:'#EAF2EC', b:'#C0D9CA',
-    date:'November 2024', title:'Smart India Biz-Tech Ideathon 2.0', org:'REVA University · Atratist Pvt. Ltd.',
-    points:['Brainstormed innovative ideas and tackled real-world business challenges alongside Safwan Shaik.','Received valuable insights from industry experts across 2 competitive days (Nov 15 & 19, 2024).','Enhanced problem-solving, teamwork, and entrepreneurial thinking skills.'],
-    tags:['Ideation','Entrepreneurship','Problem Solving'],
+    icon: Lightbulb, c:'#5F8F78', bg:'#EAF2EC', b:'#C0D9CA',
+    date: 'November 2024',
+    title: 'Smart India Biz-Tech Ideathon 2.0',
+    org: 'REVA University · Atratist Pvt. Ltd.',
+    points: [
+      'Brainstormed innovative ideas and tackled real-world business challenges alongside Safwan Shaik.',
+      'Received valuable insights from industry experts across 2 competitive days (Nov 15 & 19, 2024).',
+      'Enhanced problem-solving, teamwork, and entrepreneurial thinking skills.',
+    ],
+    tags: ['Ideation', 'Entrepreneurship', 'Problem Solving'],
   },
   {
-    icon:Zap, c:'#2B5242', bg:'#E4EDE8', b:'#B5D4C3',
-    date:'April 2025', title:'NammaSuraksha — National Hackathon', org:'Presidency University · Karnataka State Police',
-    points:['Designed and prototyped a public safety kiosk for real-time emergency police contact at bus stands and railway stations.','Collaborated in a 3-day competitive team sprint.'],
-    tags:['Prototyping','Public Safety','IoT Concept'],
+    icon: Zap, c:'#2B5242', bg:'#E4EDE8', b:'#B5D4C3',
+    date: 'April 2025',
+    title: 'NammaSuraksha — National Hackathon',
+    org: 'Presidency University · Karnataka State Police',
+    points: [
+      'Designed and prototyped a public safety kiosk for real-time emergency police contact at bus stands and railway stations.',
+      'Collaborated in a 3-day competitive team sprint.',
+    ],
+    tags: ['Prototyping', 'Public Safety', 'IoT Concept'],
   },
   {
-    icon:Award, c:'#5F8F78', bg:'#EAF2EC', b:'#C0D9CA',
-    date:'2025', title:'Certifications', org:'Kaggle · SoloLearn · RemarkSkill / NITK Surathkal',
-    points:['Python for Data Analysis — Kaggle (June 2025)','SQL Intermediate — SoloLearn (August 2025)','Data Science Technical Workshop — RemarkSkill in collaboration with Incident, NITK Surathkal (March 2025)'],
-    tags:['Python','SQL','Data Science'],
+    icon: Award, c:'#5F8F78', bg:'#EAF2EC', b:'#C0D9CA',
+    date: '2025 – 2026',
+    title: 'Certifications',
+    // ✏️ Added IBM Data Fundamentals (March 2026) which was missing; corrected order
+    org: 'IBM · Kaggle · SoloLearn · RemarkSkill / NITK Surathkal',
+    points: [
+      'Data Fundamentals — IBM (March 2026)',
+      'Python for Data Analysis — Kaggle (June 2025)',
+      'SQL Intermediate — SoloLearn (August 2025)',
+      'Data Science Technical Workshop — RemarkSkill in collaboration with NITK Surathkal (March 2025)',
+    ],
+    tags: ['Python', 'SQL', 'Data Science', 'IBM'],
   },
 ]
 

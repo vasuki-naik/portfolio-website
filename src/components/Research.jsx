@@ -23,8 +23,9 @@ export default function Research() {
               <span className="flex items-center gap-1.5 text-[11px] font-semibold px-3 py-1.5 rounded-full bg-amber-50 text-amber-600 border border-amber-200">
                 <Clock size={10} /> Under Review
               </span>
+              {/* ✏️ Changed from "IEEE Submission" → "CICON 2026" to match resume */}
               <span className="flex items-center gap-1.5 text-[11px] font-semibold px-3 py-1.5 rounded-full bg-[#EAF2EC] text-[#3F6F59] border border-[#C0D9CA]">
-                IEEE Submission
+                CICON 2026
               </span>
               <span className="tag">Feb 2026</span>
             </div>
