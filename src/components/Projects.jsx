@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
-import { Github, ExternalLink, TrendingUp, BarChart3, Leaf } from 'lucide-react'
+import { Github, ExternalLink, TrendingUp, BarChart3, Leaf, Package } from 'lucide-react'
 import SectionWrapper, { SectionHeader } from './SectionWrapper'
 import { useInView } from './useInView'
 
@@ -14,7 +14,15 @@ const projects = [
     github:'https://github.com/vasuki-naik/customer-churn-analysis',
   },
   {
-    id:2, icon:BarChart3, color:'#5F8F78', bg:'#EAF2EC', border:'#C0D9CA', period:'2025',
+    id:2, icon:Package, color:'#4A6E82', bg:'#E8F2F7', border:'#B8D4E0', period:'2025',
+    title:'E-Commerce Shipping KPI Analysis',
+    description:'Diagnosed a 7.3pt on-time delivery drop across 99,441 orders using 7 advanced SQL queries (CTEs, window functions, 4-table JOINs) on an 8-table relational database. Automated ETL pipeline in Python and surfaced weekly delay patterns via rolling averages.',
+    highlights:['99,441 Orders','7.3pt OTD Drop','65% Delays Resolved','Corr. 0.42 (weight)'],
+    stack:['SQL','Python','SQLite','Matplotlib','ETL','Window Functions'],
+    github:'https://github.com/vasuki-naik/ecommerce-shipping-kpi-analysis',
+  },
+  {
+    id:3, icon:BarChart3, color:'#5F8F78', bg:'#EAF2EC', border:'#C0D9CA', period:'2025',
     title:'Indian Startup Ecosystem Analysis',
     description:'Analysed 3,000+ startup funding records — year-wise growth, top sectors, investment stage distribution (Seed to PE). Built a 3-page interactive Power BI dashboard and a Random Forest Regressor for funding prediction.',
     highlights:['3,000+ Records','Power BI Dashboard','Funding Predictor','Sector Analysis'],
@@ -22,7 +30,7 @@ const projects = [
     github:'https://github.com/vasuki-naik/startup-funding-analytics-india',
   },
   {
-    id:3, icon:Leaf, color:'#2B5242', bg:'#E4EDE8', border:'#B5D4C3', period:'2025',
+    id:4, icon:Leaf, color:'#2B5242', bg:'#E4EDE8', border:'#B5D4C3', period:'2025',
     title:'Food Waste Prediction & Redistribution',
     description:'ML model to predict food waste generation patterns and optimise redistribution logistics to reduce waste and support communities. Combines predictive analytics with actionable supply-chain insights.',
     highlights:['Waste Reduction','ML Prediction','Redistribution Logic','Social Impact'],
